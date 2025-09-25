@@ -1,3 +1,10 @@
 body {
     background-color: #222;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), /* overlay */
+        linear-gradient(to right, green 0.05rem, transparent 0.01rem),
+        linear-gradient(to bottom, green 0.05rem, transparent 0.01rem);
+    background-size: 2.8rem 2.8rem;
+
+    z-index: -10;
 }
